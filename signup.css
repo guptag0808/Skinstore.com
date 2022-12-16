@@ -1,0 +1,45 @@
+#signup{
+     width: 50%;
+	 background-color: cornflowerblue;
+	 margin: auto;
+	 text-align: center;
+}
+#fac{
+  width: 300px;
+  padding: 15px;
+  border: 2px solid green;
+}
+#google{
+	/* margin-top: 60px; */
+	/* width: 400px;
+	padding: 5px; */
+	border: 2px solid red;
+}
+#name{
+	width: 400px;
+	padding: 10px;
+}
+#email{
+	width: 400px;
+	padding: 10px;
+}
+#confirm-email{
+	width: 400px;
+	padding: 10px;
+}
+#pass{
+	width: 400px;
+	padding: 10px;
+}
+#confirm-password{
+	width: 400px;
+	padding: 10px;
+}
+#phone-number{
+	width: 400px;
+	padding: 10px;
+}
+#sub{
+	width: 420px;
+	padding: 10px;
+}

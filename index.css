@@ -4,7 +4,7 @@
 }
 body{
 	/* background-color: aqua; */
-	height: 3000px;
+
 }
 nav{
 	position: fixed;
@@ -13,6 +13,7 @@ nav{
 	display: flex;
 	margin-top: -150px;
 	justify-content: space-around;
+	z-index: 1;
 	/* border: 2px solid red; */
 	
 	/* position: fixed; */
@@ -22,7 +23,7 @@ nav>div{
 	/* margin-left: 100px; */
 }
 #logo{
-	margin-left: -60px;
+	/* margin-left: -20px; */
 	font-size: 30px;
 	
 }
@@ -32,22 +33,24 @@ nav>div:nth-child(2){
 	/* margin-top: 20px; */
 	width: 400px;
 	height: 20px;
-	/* margin-top: 25px; */
-	border: 2px solid black;
-	/* padding:40px ; */
+	margin-top: 25px;
+	/* border: 2px solid black; */
+	
 
 	
 }nav>div:nth-child(2)>input{
 	width:100%;
+	padding: 10px 0px;
 }
 nav>div:nth-child(3){
 	display: flex;
 	align-content: center;
 	/* border: 2px solid rebeccapurple; */
-	width: 200px;
-	justify-content: space-between;
-	margin-top:20px;
+	width: 400px;
+	/* justify-content: space-evenly; */
+	/* margin-top:20px; */
 	font-size:20px;
+	
 	
 	
 }
@@ -62,9 +65,11 @@ nav>div:nth-child(3)>a{
 	justify-content: space-around;
 	text-decoration:none;
 	width: 100%;
+	background-color:rgb(128, 125, 125) ;
+	z-index: 1;
 	/* display: block; */
 	/* padding-left: 50px; */
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	/* align-items: center; */
 	margin-top: -50px;
 	/* display: block; */
@@ -114,4 +119,135 @@ hr{
 .shop_by{
 	text-align: center;
 	margin: 20px;
+}
+.carousel-inner img{
+	width: 40%;
+	/* border: 2px solid red; */
+}
+.product{
+	
+	display: flex;
+	width: 95%;
+	margin: auto;
+	/* border: 2px solid red; */
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.product>div{
+	width: 23%;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	text-align: center;
+}
+.product button{
+	width: 100%;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#Trending_offer{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3,1fr);
+	margin-left:30px;
+	text-align: center;
+}
+#Trending_offer img{
+width:80%
+}
+.h1{
+	text-align: center;
+	margin-top: 80px;
+}
+#Trending_offer button{
+	border: 2px solid pink;
+	padding: 10px;
+	background-color: #fff;
+	color: black;
+	/* outline:auto; */
+}
+#Trending_offer button:hover{
+	background-color: cornflowerblue;
+}
+#brand-logo{
+	margin-top: 80px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	border:2px oslid green;
+}
+#brand-logo img{
+	width:85%;
+}
+#buying_right_now{
+	width: 100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+#buying_right_now img{
+  width: 100%;
+}
+#buying_right_now button{
+	width: 95%;
+	padding: 3px;
+	border: rgb(54, 51, 51);
+	background-color:rgb(70, 67, 67) ;
+	color: white;
+}
+.beauty_images img{
+	margin-top: 30px;
+	width: 100%;
+}
+#before_footer{
+	display: flex;
+	width: 100%;
+
+}
+#before_footer>div{
+	margin-left: 20px;
+	width:50%
+}
+#before_footer button{
+	padding:10px 20px;
+	border: none;
+	background-color: black;
+	color: #fff;
+}
+#before_footer img{
+	width: 10%;
+}
+#footer1{
+	display: flex;
+	width: 100%;
+	color: rgb(86, 87, 87);
+}
+#footer1>div{
+	width: 50%;
+
+
+}
+#footer1>div:nth-child(1){
+	margin-left: 40px;
+}
+#footer1>div:nth-child(2){
+	display: flex;
+	justify-content: space-between;
+	color: rgb(86, 87, 87);
+}
+#card_logo{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+}
+#last_footer{
+	display: flex;
+	width: 100%;
+}
+#last_footer>div{
+	width: 50%;
+}
+#last_footer>div:nth-child(1){
+	margin-left: 30px;
+}
+#card_logo img{
+	width: 50%;
 }
