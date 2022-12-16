@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* background-color: aqua; */
+
+}
+nav{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	display: flex;
+	margin-top: -150px;
+	justify-content: space-around;
+	z-index: 1;
+	/* border: 2px solid red; */
+	
+	/* position: fixed; */
+	
+}
+nav>div{
+	/* margin-left: 100px; */
+}
+#logo{
+	/* margin-left: -20px; */
+	font-size: 30px;
+	
+}
+nav>div:nth-child(2){
+	/* display: flex;
+	text-align: center; */
+	/* margin-top: 20px; */
+	width: 400px;
+	height: 20px;
+	margin-top: 25px;
+	/* border: 2px solid black; */
+	
+
+	
+}nav>div:nth-child(2)>input{
+	width:100%;
+	padding: 10px 0px;
+}
+nav>div:nth-child(3){
+	display: flex;
+	align-content: center;
+	/* border: 2px solid rebeccapurple; */
+	width: 400px;
+	/* justify-content: space-evenly; */
+	/* margin-top:20px; */
+	font-size:20px;
+	
+	
+	
+}
+nav>div:nth-child(3)>a{
+	text-decoration: none;
+	/* color: rgb(105, 102, 102); */
+	color: black;
+}
+#heading{
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	text-decoration:none;
+	width: 100%;
+	background-color:rgb(128, 125, 125) ;
+	z-index: 1;
+	/* display: block; */
+	/* padding-left: 50px; */
+	/* border: 2px solid red; */
+	/* align-items: center; */
+	margin-top: -50px;
+	/* display: block; */
+	/* height: 50px; */
+	
+
+}
+.head{
+	/* display: flex; */
+	
+}
+hr{
+	
+	background-color: black;
+	color: black;
+	height: 2px;
+}
+#heading>a{
+	text-decoration: none;
+	font-size: 18px;
+	color:rgb(99, 97, 97)
+	
+}
+#offer_part{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 150px;
+	background-color: rgb(111, 119, 117);
+	height: 50px;
+	align-items: center;
+}
+.free_offer{
+	background-color: black;
+	color: aliceblue;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
