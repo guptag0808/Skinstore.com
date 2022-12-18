@@ -1,8 +1,12 @@
+body{
+	background-color: rgb(146, 133, 133);
+}
 #account_page{
 	display: none;
 	display: block;
 
 }
+
 #formDiv{
 	/* border: 2px solid red; */
 	/*  */
@@ -52,10 +56,12 @@ background-color:rgb(46, 45, 45) ;
 color: white;
 }
 #fac{
-	width: 20%;
-	padding: 6px;
+	/* width: 20%; */
+	padding: 3px 20px;
+	background-color: rgb(120, 120, 231);
   }
 #google{
-	width: 20%;
-	padding: 6px;
+	/* width: 20%; */
+	background-color: beige;
+	padding: 3px 20px;
 }

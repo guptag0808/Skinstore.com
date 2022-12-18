@@ -1,19 +1,21 @@
+body{
+	background-color: rgb(42, 46, 46);
+}
 #signup{
-     width: 50%;
-	 background-color: cornflowerblue;
+     width: 40%;
+	 background-color: rgb(83, 93, 112);
 	 margin: auto;
 	 text-align: center;
 }
 #fac{
-  width: 300px;
-  padding: 15px;
-  border: 2px solid green;
+  width: 200px;
+  padding: 10px;
+  /* border: 2px solid green; */
 }
 #google{
-	/* margin-top: 60px; */
-	/* width: 400px;
-	padding: 5px; */
+	padding: 10px 20px;
 	border: 2px solid red;
+	width: 200px;
 }
 #name{
 	width: 400px;
@@ -42,4 +44,7 @@
 #sub{
 	width: 420px;
 	padding: 10px;
+}
+#sub:hover{
+	background-color: dimgray;
 }

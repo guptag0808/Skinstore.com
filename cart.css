@@ -27,6 +27,16 @@ nav>div{
 	font-size: 30px;
 	
 }
+#heading a{
+	text-decoration: none;
+	color: white;
+	
+}
+#logo_a{
+	font-size: 30px;
+	text-decoration:none;
+	color: rgb(46, 45, 45);
+}
 nav>div:nth-child(2){
 	/* display: flex;
 	text-align: center; */
@@ -108,57 +118,89 @@ hr{
 	text-align: center;
 	margin-top: 10px;
 }
-#fetched{
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	/* gap: 2px; */
-	width: 100%;
-	/* border: 2px solid red; */
-	text-align: center;
-	margin:auto;
-	gap: 16px;
-}
-#fetched>div{
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-   
-}
-#fetched img{
-	width: 80%;
-	
-}
-#container{
+#main{
 	display: flex;
 	width: 100%;
-	justify-content: space-between;
-	border: 2px solid green;
+	height: auto;
+	justify-content: space-evenly;
+}
+#cartContainer{
+	width: 60%;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 8px;
+	text-align: center;
+	/* border: 2px solid green; */
 	
 }
-#left_side{
-	/* margin-left: -30px; */
-	/* border: 2px solid black; */
+
+#cartContainer img{
+	width: 100%;
+}
+#cartContainer>div{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	
+}
+#small_cart{
+	width: 28%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#right_side{
+ 
+  /* border: 2px solid red; */
+ /* display: flex;
+background-color: aqua;  */
+}
+#right_side img{
+width: 20%;
+
+
+}
+#plus{
+	padding: 3px 6px;
+	/* margin: 10px; */
+	font-weight: bold;
 	font-size: 20px;
-	width:60%;
+	margin-left: 6px;
+}
+#min{
+	padding: 3px 8px;
+	/* margin: 10px; */
+	font-size: 20px;
+	font-weight: bold;
+}
+#price{
+	display: inline;
+	margin-left: 30px;
+	border: 3px solid;
+}
+#total{
+	display: inline;
+	margin-left: 50px;
+}
+#total_sum{
 	margin-left: 10px;
+display: flex;
+justify-content: baseline;
+margin-top:10px;
 }
-.heading_div{
-	margin-left: 80px;
+#search:hover{
+  background-color: beige;
+  font-size: 20px;
 }
-#sort{
-	margin-top: 20px;
-	padding: 10px;
-	background-color: #fff;
-	color: rgb(22, 21, 21);
-	margin-bottom: 20px;
-	border: 2px solid black;
+#login_logo{
+	margin-top: 15px;
+	width: 30%;
+	
+
 }
-#buy{
-	padding: 8px 140px;
-	background-color: rgb(45, 46, 46);
-	color: #fff;
+#cart_logo{
+	width:60%;
+	margin-top: 10px;
 }
-#gift{
-	background-color:white;
-	color: black;
-	padding: 10px;
-	border: 2px solid rgb(61, 60, 60);
+#checkout{
+	width: 100%;
+	padding: 6px;
+	background-color: rgb(59, 57, 57);
+	color: aliceblue;
 }
