@@ -1,0 +1,44 @@
+
+#submit:hover{
+	display:block
+}
+form{
+	width: 30%;
+	margin: auto;
+	/* border:2px solid red; */
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+		background-color: rgb(218, 211, 185)
+	
+
+}
+#card {
+	width: 90%;
+	text-align: center;
+}
+#card img{
+	width:10%
+}
+#all input{
+	width: 80%;
+	margin: auto;
+	height: 40px;
+	
+}
+#lastInput{
+	margin-bottom: 20px;
+}
+#all{
+	text-align: center;
+	
+}
+#last_text{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+#submit{
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 12px;
+	background-color: rgb(59, 58, 58);
+	color: aliceblue;
+}

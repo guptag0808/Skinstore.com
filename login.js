@@ -10,7 +10,7 @@ let capture= document.querySelector("#form").addEventListener("submit",function(
 	 storeInfo.forEach((el)=>{
 	
 		if(el.email===emailId && el.pass===passId){
-			console.log(el.email,emailId)
+			
 			alert("login Sucessfull")
 			window.open("index.html")
 		}else{

@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Trending Page</title>
-	<link rel="stylesheet" href="trending.css">
+	<title>Cart Page</title>
+	<link rel="stylesheet" href="cart.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
@@ -13,16 +13,18 @@
 <body>
 	<nav>
 		<div id="logo">
-			<h1>Skin Store</h1>
+			<a href="index.html" id="logo_a">
+				<h1>Skin Store</h1>
 			<p>part of LOOKFANTASTICS group</p>
+			</a>
 		</div>
 		<div>
 			<input id="search" type="text" oninput="search()" placeholder="Search for a product or brand...">
 			
 		</div>
 		<div>
-			<a href="login.html"><img width="40%" src="./images/login_logo.jpg" alt="">Account </a>
-			<a href="cart.html"><img width="70%" src="./images/cart_logo.jpg" alt="">
+			<a  href="login.html"><img width="40%" src="./images/login_logo.jpg" alt="" id="login_logo" >Account </a>
+			<a href=""><img width="70%" src="./images/cart_logo.jpg" alt="" id="cart_logo">
 				Cart</a>
 		</div>
 	</nav>
@@ -30,10 +32,11 @@
 	<!-- Example single danger button -->
 
 
+
 	<div id="heading">
 		<div class="dropdown">
 			<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-			  Brands
+			 <a href="index.html" id="br"> Brands</a>
 			</button>
 			<ul class="dropdown-menu">
 			  <li><a class="dropdown-item" href="#">A | B | C | D | E | F | G | H | I | J | k | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z </a></li>
@@ -172,47 +175,29 @@
 	<div class="free_offer">
 		<p>25% Off with code REPLAY + Free holiday beauty bag(Worth $170)</p>
 	</div>
-	<div id="container">
-		<div id="left_side">
-			<h1>REFINE</h1>
-			<hr>
-			<h2>BRANDS</h2>
-			<!-- <form action="/action_page.php"> -->
-				<input type="checkbox" id="Medik" name="vehicle1" value="Medik">
-				<label for="vehicle1">Medik</label><br>
-				<input type="checkbox" id="vehicle2" name="vehicle2" value="aesop">
-				<label for="vehicle2"> Aesop</label><br>
-				<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-				<label for="vehicle3"> Alpha-H</label><br>
-				<input type="checkbox" id="alurx" name="vehicle3" value="alurx">
-				<label for="vehicle3"> Alurx</label><br><br>
-				<!-- <input type="submit" value="Submit"> -->
-			  <!-- </form> -->
-		</div>
-		<div>
-			<div class="heading_div"><h1 id="first_h1">
-				New! Latest Beauty Products
-			</h1>
-			<br><br>
-			
-			<p>We scour the globe around the clock to bring you a diverse range of skincare from breakthrough, results-driven brands to natural, organic and vegan options. Check back regularly, as we are always adding innovative facial devices, cleansing tools and new skincare essentials on site.</p>
-			<select name="sort" id="sort" onchange="sorting()">
-				<option value="">Default</option>
-				<option value="HTL">Price High To Low</option>
-				<option value="LTH">Price Low To High</option>
-			</select></div>
-			 <div id="fetched"></div>
-		</div>
-	</div>
-
-	
-		<script>"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"</script>
+	<script>"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"</script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
 		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
 		crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
 		crossorigin="anonymous"></script> 
-</body>
-</html>
-<script src="trending.js"></script>
+		<div id="main">
+			<div id="cartContainer">
+				 </div>
+				<div id="small_cart">
+					<div id="right_side"></div>
+					
+						<h1 id="total_sum">Total Amount <span id="sumOfamount"></span></h1>
+						<button id="checkout">CHECKOUT</button>
+					</div>
+
+
+					
+				
+		 
+    </div>
+	</body>
+	</html>
+	<script src="cart.js"></script>
+	
